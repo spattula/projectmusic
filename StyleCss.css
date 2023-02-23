@@ -1,0 +1,294 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: white;
+    Padding: 0;
+    Margin: 0;
+    overflow-x:hidden;
+}
+
+
+
+header {
+    position:fixed;
+    width:100%;
+    padding: 1rem;
+    backdrop-filter:blur(10px);
+ 
+}
+
+
+/* Stilul pentru bara de navigare */
+nav {
+    padding: 0px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight:bold;
+    font-size:larger;
+}
+
+    nav ul {
+        display:contents;
+        list-style: none;
+        
+    }
+
+    nav li {
+        margin-right: 1rem;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+
+.banner {
+    background-image: src(fundal-transformed.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    z-index:0;
+}
+
+
+.patrat {
+    font-weight: bold;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 45%;
+    /*  background-color: white;*/
+    backdrop-filter: blur(30px);
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    /* box-shadow: 0px 2px 6px #cccccc;*/
+}
+
+.patrat2 {
+    width: 270px;
+    height: 270px;
+    background-color: white;
+    box-shadow: 0px 2px 6px #cccccc;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    Padding: 7px;
+    text-align: center;
+    border-radius: 20px;
+    opacity:0.8;
+}
+
+.patrat3 {
+    opacity: 0.8;
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    box-shadow: 0px 2px 6px #cccccc;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    Padding: 7px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.patratnegru {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 20%;
+    backdrop-filter: blur(30px);
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    color: snow;
+    text-align: center;
+}
+
+
+
+
+.patratabout {
+    font-weight: bold;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 75%;
+    /*  background-color: white;*/
+    backdrop-filter: blur(30px);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    /* box-shadow: 0px 2px 6px #cccccc;*/
+}
+
+
+.patratmusic {
+    font-weight: bold;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 85%;
+    
+    backdrop-filter: blur(30px);
+    z-index: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+
+
+
+.patratcontact {
+    font-weight: bold;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 75%;
+    /*  background-color: white;*/
+    backdrop-filter: blur(30px);
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    /* box-shadow: 0px 2px 6px #cccccc;*/
+}
+
+.patratcontact1 {
+    padding: 0px 40px 0 5px;
+    width: 50%;
+    height: 90%;
+    background-color: white;
+    box-shadow: 0px 2px 6px #cccccc;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    Padding: 7px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.patratcontact2 {
+    padding: 0px 5px 0 40px;
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    box-shadow: 0px 2px 6px #cccccc;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    display: flex;
+    Padding: 7px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+
+
+
+
+/*    -----  formular     */
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+
+    .button:hover {
+        background-color: #555;
+    }
+
+/* Set styles for the contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+}
+
+    input:focus,
+    textarea:focus {
+        border-color: #333;
+    }
+
+button[type="submit"] {
+    margin-top: 1rem;
+}
+
+
+.patratform {
+    width: 470px;
+    height: 270px;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    Padding: 7px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.8;
+}
